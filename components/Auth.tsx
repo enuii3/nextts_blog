@@ -41,11 +41,7 @@ const Auth: React.FC = () => {
         )
         if (res.status === 201) login()
       } catch (error) {
-<<<<<<< Updated upstream
         setError('Register Error')
-=======
-        setError('Registration Error')
->>>>>>> Stashed changes
       }
     }
   }
